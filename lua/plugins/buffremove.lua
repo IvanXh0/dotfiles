@@ -4,7 +4,7 @@ return {
 
     keys = {
       {
-        "<leader>X",
+        "<leader>x",
         function()
           local bd = require("mini.bufremove").delete
           if vim.bo.modified then
