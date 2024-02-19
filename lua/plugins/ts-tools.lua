@@ -7,6 +7,9 @@ return {
       require("typescript-tools").setup({
         settings = {
           tsserver_max_memory = 14000,
+          tssever_plugins = {
+            "@styled/typescript-styled-plugin",
+          },
         },
       })
     end,
